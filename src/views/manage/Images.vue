@@ -1,0 +1,11 @@
+<template>
+  <div>
+    <ul>
+      <li>image1</li>
+      <li>image2</li>
+      <li>image3</li>
+      <li>image4</li>
+      <li>image5</li>
+    </ul>
+  </div>
+</template>
