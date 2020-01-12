@@ -1,5 +1,15 @@
 <template>
   <div class="message">
-    <h1>This is an Message page</h1>
+    <Table/>
   </div>
 </template>
+
+<script>
+import Table from '@/components/Table'
+export default {
+  name: "Message",
+  components:{
+    Table
+  }
+};
+</script>
