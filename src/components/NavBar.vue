@@ -10,7 +10,7 @@
       active-text-color="#ffd04b"
       router
     >
-      <el-menu-item index="/home">首页</el-menu-item>
+      <el-menu-item index="/home" :default-active='activeIndex'>首页</el-menu-item>
       <el-menu-item index="/about">关于</el-menu-item>
       <el-menu-item index="/upload">图片上传</el-menu-item>
       <el-menu-item index="/manage">图片管理</el-menu-item>
@@ -25,7 +25,7 @@ export default {
   name: "NavBar",
   data() {
     return {
-      activeIndex: "home",
+      activeIndex: "/home",
       userId: "heart"
     };
   },
